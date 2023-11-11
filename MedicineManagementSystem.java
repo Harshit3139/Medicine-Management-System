@@ -62,12 +62,12 @@ public class MedicineManagementSystem {
                     System.out.print("Enter medicine name: ");
                     scanner.nextLine();
                     medicineName = scanner.nextLine();
-                    System.out.print("Enter your quantity: ");
+                    System.out.print("Enter your quantity : ");
                     quantity = scanner.nextInt();
                     medicineManagementSystem.addMedicine(medicineName, quantity);
                     break;
                 case 2:
-                    System.out.print("Enter medicine name: ");
+                    System.out.print("Enter medicine name : ");
                     scanner.nextLine();
                     medicineName = scanner.nextLine();
                     System.out.print("Enter your quantity: ");
